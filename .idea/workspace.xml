@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07edf098-f6e5-4e19-b4e3-6ec937a60818" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cheater/home/SingleWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cheater/home/Starter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cheater/home/SingleWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cheater/home/SingleWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

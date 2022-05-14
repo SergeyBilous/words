@@ -19,9 +19,7 @@ public class SingleWord {
             if (template.charAt(i) == '_') {
                 continue;
             }
-            if (template.charAt(i) == word.charAt(i)) {
-                continue;
-            } else {
+            if (template.charAt(i) != word.charAt(i)) {
                 return false;
             }
         }
@@ -29,7 +27,12 @@ public class SingleWord {
     }
 
     private boolean checkRestrictions(String letters) {
-
+        for (int i = 0; i < word.length(); i++) {
+            if (numOfLetters(this.word, word.charAt(i)) > numOfLetters(letters, word.charAt(i))) {
+                return false;
+            }
+        }
+        return true;
     }
 
     private static int numOfLetters(String word, char letter) {
