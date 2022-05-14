@@ -6,6 +6,9 @@ import java.util.Set;
 public class SingleWord {
     private String word;
 
+    public String getWord() {
+        return word;
+    }
 
     public SingleWord(String word) {
         this.word = word.toLowerCase();
