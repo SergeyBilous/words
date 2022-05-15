@@ -1,10 +1,7 @@
 package cheater.home;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class SingleWord {
-    private String word;
+    private final String word;
 
     public String getWord() {
         return word;
@@ -19,7 +16,7 @@ public class SingleWord {
             return false;
         }
         for (int i = 0; i < word.length(); i++) {
-            if (template.charAt(i) == '_') {
+            if (template.charAt(i) == '-') {
                 continue;
             }
             if (template.charAt(i) != word.charAt(i)) {
