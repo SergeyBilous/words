@@ -29,7 +29,7 @@ public class SingleWord {
         return true;
     }
 
-    private boolean checkRestrictions(String letters) {
+    public boolean checkRestrictions(String letters) {
         for (int i = 0; i < word.length(); i++) {
             if (numOfLetters(this.word, word.charAt(i)) > numOfLetters(letters, word.charAt(i))) {
                 return false;

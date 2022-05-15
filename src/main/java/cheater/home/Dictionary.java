@@ -32,10 +32,11 @@ public class Dictionary {
         words.add(new SingleWord(word));
     }
 
-    public List<String> getByTemplate(String template){
+    public List<SingleWord> getByTemplate(String template) {
         List<SingleWord> wordsByTemplate =
-        words.stream().filter(w->w.compareWithTemplate(template)).map(w->)
-                .collect(Collectors.toList());
+                words.stream().filter(w -> w.compareWithTemplate(template))
 
+                        .collect(Collectors.toList());
+        return wordsByTemplate;
     }
 }
