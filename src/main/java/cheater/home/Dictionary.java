@@ -35,7 +35,7 @@ public class Dictionary {
     public List<SingleWord> getByTemplate(String template) {
         List<SingleWord> wordsByTemplate =
                 words.stream().filter(w -> w.compareWithTemplate(template))
-
+                        .distinct()
                         .collect(Collectors.toList());
         return wordsByTemplate;
     }

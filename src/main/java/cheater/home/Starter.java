@@ -33,6 +33,7 @@ public class Starter {
                 if (template.length() == 0) {
                     break;
                 }
+                template=template.replaceAll("-","_");
                 List<SingleWord> byTemplate=dictionary.getByTemplate(template)
                         .stream().filter(w->w.checkRestrictions(letters))
                         .collect(Collectors.toList());
@@ -50,7 +51,7 @@ public class Starter {
     }
 
     private static List<String> getDictionary() throws FileNotFoundException, URISyntaxException {
-        URL resource = Starter.class.getClassLoader().getResource("singular.txt");
+        URL resource = Starter.class.getClassLoader().getResource("words.txt");
         if ((resource == null)) {
             throw new FileNotFoundException("Dictionary file not found");
         }
