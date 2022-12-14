@@ -36,6 +36,7 @@ public class Starter {
                 template=template.replaceAll("-","_");
                 List<SingleWord> byTemplate=dictionary.getByTemplate(template)
                         .stream().filter(w->w.checkRestrictions(letters))
+                        .distinct()
                         .collect(Collectors.toList());
                if(byTemplate.size()==0){
                    System.out.println("Варианты не найдены");
@@ -62,6 +63,7 @@ public class Starter {
                 list.add(scanner.nextLine());
             }
         }
+
         return list;
     }
 }

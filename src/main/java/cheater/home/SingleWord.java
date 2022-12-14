@@ -47,4 +47,12 @@ public class SingleWord {
         }
         return counter;
     }
+    @Override
+    public boolean equals(Object obj){
+        if(!(obj instanceof SingleWord)){
+            return false;
+        }
+        SingleWord another = (SingleWord) obj;
+        return this.word.equals(another.word);
+    }
 }
