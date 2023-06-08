@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07edf098-f6e5-4e19-b4e3-6ec937a60818" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cheater/home/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cheater/home/Dictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cheater/home/SingleWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cheater/home/SingleWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cheater/home/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cheater/home/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rus_nouns.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/rus_nouns.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/russian8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/russian8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/words.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/serge/projects/words",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cheater.home.Starter" />
@@ -87,7 +98,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cheater/home/Starter.java</url>
-          <line>36</line>
+          <line>37</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

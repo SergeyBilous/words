@@ -52,7 +52,7 @@ public class Starter {
     }
 
     private static List<String> getDictionary() throws FileNotFoundException, URISyntaxException {
-        URL resource = Starter.class.getClassLoader().getResource("words.txt");
+        URL resource = Starter.class.getClassLoader().getResource("russian8.txt");
         if ((resource == null)) {
             throw new FileNotFoundException("Dictionary file not found");
         }
